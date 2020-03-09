@@ -8,6 +8,10 @@ class Dog
     @name
   end
 
+  def breed=(breeds)
+    @breed
+  end
+
 end
 
 fido = Dog.new
