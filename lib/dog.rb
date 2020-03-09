@@ -8,21 +8,23 @@ class Dog
     @name
   end
 
-  def breed=(breeds)
-    @breed = dogs_breed
-  end
-
-  def breed
-    @breed
-  end
-
 end
 
 fido = Dog.new
 fido.name = "Fido"
 
 puts fido.name
+def breed=(breeds)
+  @breed = dogs_breed
+end
 
+class Dog
+
+  def breed
+  @breed
+end
+
+end
 snoopy = Dog.new
 snoopy.breed = "Beagle"
 
