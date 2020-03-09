@@ -23,4 +23,6 @@ class Dog
 
   def breeds
     @breeds
+  end
+  
 end
