@@ -14,20 +14,3 @@ fido = Dog.new
 fido.name = "Fido"
 
 puts fido.name
-
-
-class Dog
-  
-  def breed=(breeds)
-    @breed = dogs_breed
-  end
-
-  def breed
-  @breed
-end
-
-end
-snoopy = Dog.new
-snoopy.breed = "Beagle"
-
-puts snoopy.breed
