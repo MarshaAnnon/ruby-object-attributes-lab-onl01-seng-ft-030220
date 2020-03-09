@@ -14,3 +14,11 @@ fido = Dog.new
 fido.name = "Fido"
 
 puts fido.name
+
+class Dog
+
+  def breeds=(breed)
+    @breed = dogs_breed
+  end
+
+end
