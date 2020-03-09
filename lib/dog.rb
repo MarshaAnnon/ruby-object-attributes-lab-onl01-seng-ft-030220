@@ -18,7 +18,7 @@ puts fido.name
 class Dog
 
   def breeds=(breed)
-    @breed = dogs_breed
+    @breeds = dogs_breed
   end
 
 end
